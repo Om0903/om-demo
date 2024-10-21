@@ -1,0 +1,11 @@
+Kubernetes
+sudo su -
+sudo apt update
+sudo apt install docker.io
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo systemctl status docker
+docker --version
+curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add-
+snap install kubeadm --classic
+kubeadm version
